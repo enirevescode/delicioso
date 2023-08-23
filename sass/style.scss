@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*!
+Theme Name: deliciozo
+Theme URI: https://enirevescode.fr/
+Author: enireves
+Author URI: https://enirevescode.fr/
+Description: theme propriétaire pour 1 site de commande de pizza sur place ou à emporter
+Version: 1.0.0
+Text Domain: deliciozo
+*/
+
+@import 'base/_fonts';
+
+@import "tools/_variables";
+
+
+@import "components/_buttons";
+@import "components/_card";
+@import "components/_carousel";
+
+
+@import "section/_footer";
+@import "section/_header";
+
+body{
+   background-color: white;
+   overflow-x: hidden;
+}

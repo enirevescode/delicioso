@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/*!
+Theme Name: deliciozo
+Theme URI: https://enirevescode.fr/
+Author: enireves
+Author URI: https://enirevescode.fr/
+Description: theme propriétaire pour 1 site de commande de pizza sur place ou à emporter
+Version: 1.0.0
+Text Domain: deliciozo
+*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+.btn {
+  background-color: #ff4757;
+  color: aliceblue;
+  font-weight: 500;
+  position: relative;
+  bottom: 10px;
+  float: left;
+  text-align: center;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  float: right;
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #ff4757; /* Set a background color */
+  color: aliceblue; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 60%; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #e00013;
+}
+
+#savoir {
+  border: none;
+  background-color: transparent;
+  float: right;
+  color: #ff4757;
+}
+
+#more {
+  display: none;
+}
+
+/*************************************************/
+/*                 C A R D                      */
+/***********************************************/
+.card-text-prix {
+  float: right;
+  position: relative;
+  margin: 0 15px 10px 0;
+  font-weight: 700;
+  color: #ff4757;
+}
+
+.card-title, .card-text-prix, .card-text, .card-text-single {
+  font-size: 1.1rem;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #ff4757;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 0;
+  min-height: 230px;
+}
+
+.card-text, .card-text-single {
+  margin-left: 20px;
+}
+
+/************************************************/
+/*                 SLIDE-HOME                   */
+/************************************************/
+.slide-home {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.carousel-item h5 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.carousel-item p {
+  font-size: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 10px 3%;
+}
+
+/* FOOTER */
+footer {
+  color: #273c75;
+}
+
+/***************************************************/
+/*==============       HEADER ++++++++++++         */
+/***************************************************/
+.jumboaccueil {
+  z-index: -10;
+  background-image: url("assets/pizza_accueil_site.webp");
+  background-attachment: fixed;
+  /* background will not move with the elements*/
+  background-position: center;
+  max-width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+  top: 0px;
+}
+
+/***************************************************/
+/***********         category pizze         ********/
+/***************************************************/
+.pizze {
+  z-index: -10;
+  background-image: url("assets/fond_card.webp");
+  background-attachment: fixed;
+  /* background will not move with the elements*/
+  background-position: center;
+  max-width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+  top: 0px;
+}
+
+/***************************************************/
+/***********        category dolce          ********/
+/***************************************************/
+.dolce {
+  z-index: -10;
+  background-image: url("assets/photo-panna-cotta2.webp");
+  background-attachment: fixed;
+  /* background will not move with the elements*/
+  background-position: center;
+  max-width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+  top: 0px;
+}
+
+/***************************************************/
+/***********       category pasta           ********/
+/***************************************************/
+.pasta {
+  z-index: -10;
+  background-image: url("assets/spaghetti.webp");
+  background-attachment: fixed;
+  /* background will not move with the elements*/
+  background-position: center;
+  max-width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+  top: 0px;
+}
+
+/***************************************************/
+/*             message d'accueil                   */
+/***************************************************/
+h1, h4 {
+  color: #0a3d62;
+  text-align: center;
+  font-family: montserrat, monospace;
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 0.1rem 0.1rem 0.3rem aliceblue;
+}
+
+.entete {
+  font-family: montserrat, monospace;
+  margin-top: 20px;
+  color: aliceblue;
+  font-size: clamp(32px, 60%, 50px);
+  margin-top: clamp(50px, 50%, 60px);
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0.1rem 0.1rem 0.4rem #0a3d62;
+}
+
+.entete2 {
+  margin-top: 20px;
+  color: aliceblue;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 0.1rem 0.1rem 0.3rem #0a3d62;
+}
+
+/***************************************************/
+/**********       carte.php et card        ********/
+/*************************************************/
+h6 {
+  font-weight: bolder;
+  font-style: oblique;
+  letter-spacing: 1px;
+  color: #ff4757;
+}
+
+body {
+  background-color: white;
+  overflow-x: hidden;
+}/*# sourceMappingURL=style.css.map */
