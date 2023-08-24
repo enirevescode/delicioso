@@ -1,6 +1,6 @@
 # delicioso
 
-<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='php 8' src='https://img.shields.io/badge/Php_8-100000?style=for-the-badge&logo=php 8&logoColor=B7C2D0&labelColor=9EC1DA&color=black'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Php' src='https://img.shields.io/badge/Php_8-100000?style=for-the-badge&logo=Php&logoColor=A0C7DE&labelColor=1E282C&color=5F92AD'/></a>
 
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='wordpress' src='https://img.shields.io/badge/wordpress_5.5-100000?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=0D59E7&color=09090B'/></a>
 
